@@ -6,6 +6,7 @@ pipeline {
             steps {
                 script {
                     sh ''' python3 -V
+                    sudo apt-get -qq install -y python python-virtualenv python-pip
                     pip install requests '''
                     
                 }
