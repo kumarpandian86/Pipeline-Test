@@ -1,10 +1,10 @@
 import requests
 import json
 import time
-f = open('customscript/complaince_config.json')
+f = open('complaince_config.json')
 config_dict = json.load(f)
 def get_summary(job_number):
-    f = open('customscript/complaince_config.json')
+    f = open('complaince_config.json')
     config_dict = json.load(f)
     user_name = config_dict['username']
     auth_token = config_dict['auth_token']
@@ -32,7 +32,7 @@ def get_summary(job_number):
 
 
 def  complaince_job():
-    f = open('customscript/complaince_config.json')
+    f = open('complaince_config.json')
     config_dict = json.load(f)
 
     tenant = config_dict['tenants']
