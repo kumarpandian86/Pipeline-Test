@@ -5,12 +5,7 @@ pipeline {
     stage('Installing packages') {
             steps {
                 script {
-                    sh ''' apt-get -qq update && apt-get -qq install -y python3.9
-                    apt-get -qq update
-                    apt-get -qq install -y python python-virtualenv python-pip
-                    virtualenv venv
-                    . venv/bin/activate
-                    python -V
+                    sh ''' python3 -V
                     pip install requests '''
                     
                 }
@@ -18,7 +13,7 @@ pipeline {
         }
     stage('hello') {
       steps {
-        sh 'python3.9 hello.py'
+        sh 'python3 hello.py'
       }
     }
   }
