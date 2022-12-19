@@ -1,0 +1,12 @@
+{
+    "tenants" : ["6013962a24bcbf0e8c900fbb"],
+    "username": ["krishnakumar.vj"],
+    "auth_token" : "6cbf7378-5f78-4434-9e4c-830b6886e630",
+    "payload": {
+    "cloud_accounts": ["638738cea26e6079ee42d186"],
+    "compliance_uri": "demo_standard_santhosh/e99d"
+    }
+
+}
+
+
