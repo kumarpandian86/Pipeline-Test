@@ -56,9 +56,11 @@ def  complaince_job():
     return final_output
 
 res= complaince_job()
+print(res)
 #res={}                                                                               
 #final_summary=get_summary('NIST-SP800-53/0006/46abf502-c017-417c-afe8-9aff0376ea98') 
-#print(final_summary)                                                                 
+#print(final_summary)  
+
 
 if res.get('status') =='success' :
     print('CA triggered')
