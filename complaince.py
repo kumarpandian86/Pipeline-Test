@@ -55,11 +55,11 @@ def  complaince_job():
 
     return final_output
 
-res= complaince_job()
-print(res)
-#res={}                                                                               
-#final_summary=get_summary('ISO-27001/0011/f96f6690-cd63-4640-beb6-977d00adb4d3') 
-#print(final_summary)  
+#res= complaince_job()
+#print(res)
+res={}                                                                               
+final_summary=get_summary('ISO-27001/0011/f96f6690-cd63-4640-beb6-977d00adb4d3') 
+print(final_summary)  
 
 
 if res.get('status') =='success' :
