@@ -1,7 +1,7 @@
 {
     "tenants" : ["603fe83a24bcbf3b52a33379"],
     "username": ["kumar.pandian"],
-    "auth_token" : "347f55a6-c497-44bd-9dfe-8c0f67a2c554",
+    "auth_token" : "bb1c0e4c-d05a-4246-807f-648eecdcf058",
     "payload": {
     "cloud_accounts": ["611cb0c6933118e37fcc6f28"],
     "compliance_uri": "ISO-27001/0011"
